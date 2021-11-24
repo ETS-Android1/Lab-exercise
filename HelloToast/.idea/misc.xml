@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/British College/DMA/LabExercises/HelloToast/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="app/src/main/res/layout-land-v21/activity_main.xml" value="0.2623456790123457" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.15343915343915343" />
+        <entry key="app/src/main/res/layout-sw600dp-v21/activity_main.xml" value="0.11283003300330033" />
         <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1359375" />
+        <entry key="app/src/main/res/layout-v21/activity_main.xml" value="0.18125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
