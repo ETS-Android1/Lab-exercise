@@ -4,7 +4,7 @@
     <shared>
       <config>
         <device id="_device_class_tablet" />
-        <option name="nonWearDeviceLastStateName" value="portrait" />
+        <option name="nonWearDeviceLastStateName" value="landscape" />
       </config>
     </shared>
   </component>
