@@ -15,8 +15,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="showToast"
-        android:text="@string/button_label_toast"
+        android:onClick="launchSecondActivity"
+        android:text="@string/button_label_sayHello"
         android:textSize="60sp"
 
         />

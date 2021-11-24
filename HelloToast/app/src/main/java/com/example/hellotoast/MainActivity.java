@@ -3,6 +3,7 @@ package com.example.hellotoast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -27,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
             mShowCount.setText(Integer.toString(mCount));
     }
 
-    public void showToast(View view) {
-        Toast.makeText(this, "Hello Toast", Toast.LENGTH_SHORT).show();
+    public void launchSecondActivity(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        intent.putExtra("count", mCount);
+        startActivity(intent);
     }
 }
