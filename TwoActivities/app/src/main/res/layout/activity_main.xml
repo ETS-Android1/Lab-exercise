@@ -7,14 +7,29 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/send"
         android:onClick="launchSecondActivity"
+        android:text="@string/send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="OnClick" />
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <EditText
+        android:id="@+id/editText_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginHorizontal="8dp"
+        android:hint="@string/enter_your_message"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_main"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" />
 </androidx.constraintlayout.widget.ConstraintLayout>
